@@ -1,0 +1,31 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "webapp framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rneogns/webapp.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "rneogns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rneogns/webapp/issues"
+  },
+  "homepage": "https://github.com/rneogns/webapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
